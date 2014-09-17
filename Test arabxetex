@@ -1,0 +1,33 @@
+\documentclass[12pt, a4paper]{article}
+
+%Packages to input Arabic
+\usepackage{arabxetex}
+\newfontfamily\arabicfont[Scale=1.5,Script=Arabic]{Simplified Arabic}
+%%% Other available fonts:
+%\newfontfamily\arabicfont[Script=Arabic]{Andalus}
+%\newfontfamily\arabicfont[Script=Arabic]{Arabic Typesetting}
+%\newfontfamily\arabicfont[Script=Arabic]{Arial}
+%\newfontfamily\arabicfont[Script=Arabic]{Arial Unicode MS}
+%\newfontfamily\arabicfont[Script=Arabic]{Courier New}
+%\newfontfamily\arabicfont[Script=Arabic]{Microsoft Sans Serif}
+%\newfontfamily\arabicfont[Script=Arabic]{Microsoft Uighur}
+%\newfontfamily\arabicfont[Script=Arabic]{Sakkal Majalla}
+%\newfontfamily\arabicfont[Script=Arabic]{Segoe UI}
+%\newfontfamily\arabicfont[Script=Arabic]{Simplified Arabic Fixed}
+%\newfontfamily\arabicfont[Script=Arabic]{Tahoma}
+%\newfontfamily\arabicfont[Script=Arabic]{Times New Roman}
+%\newfontfamily\arabicfont[Script=Arabic]{Traditional Arabic}
+
+
+\begin{document}
+   \begin{arab}[novoc] %[voc] %[fullvoc]
+   \section{\textarab{mqdmT}}
+  'amruN, 'ibiluN, 'u_htuN, '"u_ht"uN, '"Uql"Id"Is, ra'suN, 'ar'asu,
+  sa'ala, qara'a, bu'suN, 'ab'usuN, ra'ufa, ru'asA'u, bi'ruN, 'as'ilaTuN,
+  ka'iba, qA'imuN, ri'AsaTuN, su'ila, samA'uN, barI'uN, sU'uN, bad'uN,
+  ^say'uN, ^say'iN, ^say'aN, sA'ala, mas'alaTuN, saw'aTuN, _ha.tI'aTuN,
+  jA'a, ridA'uN, ridA'aN, jI'a, radI'iN, sU'uN, .daw'uN, qay'iN, .zim'aN
+  , yatasA'alUna, 'a`dA'akum, 'a`dA'ikum, 'a`dA'ukum maqrU'aT, mU'ibAt,
+  taw'am, yas'alu, 'a.sdiq^A, 'uh_u, ya^g^I'u, s^U'ila
+  \end{arab}
+\end{document} 
